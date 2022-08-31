@@ -1,0 +1,135 @@
+---
+title: "Available Palettes"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{available-palettes}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Install using:
+``` {r, eval = FALSE}
+devtools::install_github("nrennie/PrettyCols")
+```
+or
+``` {r, eval = FALSE}
+remotes::install_github("nrennie/PrettyCols")
+```
+
+Then load into R:
+```{r}
+library(PrettyCols)
+```
+
+## Sequential Palettes
+
+### Blues
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Blues")
+```
+
+### Purples
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Purples")
+```
+
+### Tangerines
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Tangerines")
+```
+
+### Greens
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Greens")
+```
+
+### Pinks
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Pinks")
+```
+
+### Teals
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Teals")
+```
+
+## Diverging Palettes
+
+### PurpleGreens
+```{r, out.width = "60%", fig.align="center"}
+prettycols("PurpleGreens")
+```
+
+### PinkGreens
+```{r, out.width = "60%", fig.align="center"}
+prettycols("PinkGreens")
+```
+
+### TangerineBlues
+```{r, out.width = "60%", fig.align="center"}
+prettycols("TangerineBlues")
+```
+
+### PurpleGreens
+```{r, out.width = "60%", fig.align="center"}
+prettycols("PurpleGreens")
+```
+
+### PurplePinks
+```{r, out.width = "60%", fig.align="center"}
+prettycols("PurplePinks")
+```
+
+### TealGreens
+```{r, out.width = "60%", fig.align="center"}
+prettycols("TealGreens")
+```
+
+## Qualitative Palettes
+
+### Bold
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Bold")
+```
+
+### Light
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Light")
+```
+
+### Dark
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Dark")
+```
+
+### Neon
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Neon")
+```
+
+### Relax
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Relax")
+```
+
+### Autumn
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Autumn")
+```
+
+### Winter
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Winter")
+```
+
+### Rainbow
+```{r, out.width = "60%", fig.align="center"}
+prettycols("Rainbow")
+```
