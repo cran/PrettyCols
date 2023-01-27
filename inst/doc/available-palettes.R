@@ -5,7 +5,7 @@ knitr::opts_chunk$set(
 )
 
 ## ---- eval = FALSE------------------------------------------------------------
-#  devtools::install_github("nrennie/PrettyCols")
+#  install.packages("PrettyCols")
 
 ## ---- eval = FALSE------------------------------------------------------------
 #  remotes::install_github("nrennie/PrettyCols")
@@ -32,6 +32,12 @@ prettycols("Pinks")
 prettycols("Teals")
 
 ## ---- out.width = "60%", fig.align="center"-----------------------------------
+prettycols("Yellows")
+
+## ---- out.width = "60%", fig.align="center"-----------------------------------
+prettycols("Reds")
+
+## ---- out.width = "60%", fig.align="center"-----------------------------------
 prettycols("PurpleGreens")
 
 ## ---- out.width = "60%", fig.align="center"-----------------------------------
@@ -50,6 +56,12 @@ prettycols("PurplePinks")
 prettycols("TealGreens")
 
 ## ---- out.width = "60%", fig.align="center"-----------------------------------
+prettycols("PurpleYellows")
+
+## ---- out.width = "60%", fig.align="center"-----------------------------------
+prettycols("RedBlues")
+
+## ---- out.width = "60%", fig.align="center"-----------------------------------
 prettycols("Bold")
 
 ## ---- out.width = "60%", fig.align="center"-----------------------------------
@@ -62,7 +74,7 @@ prettycols("Dark")
 prettycols("Neon")
 
 ## ---- out.width = "60%", fig.align="center"-----------------------------------
-prettycols("Relax")
+prettycols("Summer")
 
 ## ---- out.width = "60%", fig.align="center"-----------------------------------
 prettycols("Autumn")
@@ -72,4 +84,28 @@ prettycols("Winter")
 
 ## ---- out.width = "60%", fig.align="center"-----------------------------------
 prettycols("Rainbow")
+
+## ---- out.width = "60%", fig.align="center"-----------------------------------
+prettycols("Beach")
+
+## ---- out.width = "60%", fig.align="center"-----------------------------------
+prettycols("Fun")
+
+## ---- out.width = "60%", fig.align="center"-----------------------------------
+prettycols("Sea")
+
+## ---- out.width = "60%", fig.align="center"-----------------------------------
+prettycols("Bright")
+
+## ---- out.width = "60%", fig.align="center"-----------------------------------
+prettycols("Relax")
+
+## ---- out.width = "60%", fig.align="center"-----------------------------------
+prettycols("Lucent")
+
+## ---- out.width = "60%", fig.align="center"-----------------------------------
+prettycols("Lively")
+
+## ---- out.width = "60%", fig.align="center"-----------------------------------
+prettycols("Joyful")
 

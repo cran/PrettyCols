@@ -5,7 +5,7 @@ knitr::opts_chunk$set(
 )
 
 ## ---- eval = FALSE------------------------------------------------------------
-#  devtools::install_github("nrennie/PrettyCols")
+#  install.packages("PrettyCols")
 
 ## ---- eval = FALSE------------------------------------------------------------
 #  remotes::install_github("nrennie/PrettyCols")

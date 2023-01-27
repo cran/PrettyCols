@@ -5,7 +5,7 @@ knitr::opts_chunk$set(
 )
 
 ## ---- eval = FALSE------------------------------------------------------------
-#  devtools::install_github("nrennie/PrettyCols")
+#  install.packages("PrettyCols")
 
 ## ---- eval = FALSE------------------------------------------------------------
 #  remotes::install_github("nrennie/PrettyCols")
@@ -39,4 +39,11 @@ ggplot(data = df,
        mapping = aes(x = type, y = value, colour = value)) +
   geom_col(size = 2, fill = "white") +
   scale_colour_pretty_c(name = "Purples", direction = -1)
+
+## ---- fig.show="hold", out.width = "47%", fig.align='center'------------------
+ggplot(data = df,
+       mapping = aes(x = type, y = value, fill = value)) +
+  geom_col() +
+  scale_fill_pretty_c(name = "Purples", legend_title = "My New Title") +
+  theme(legend.title = element_text(colour = "blue"))
 
